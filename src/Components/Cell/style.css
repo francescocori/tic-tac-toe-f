@@ -1,0 +1,34 @@
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #296788;
+  color: #d8d2cb;
+  border-radius: 5%;
+  border: none;
+}
+.cell:hover {
+  cursor: pointer;
+  background: #e19f25;
+}
+
+.cell.isActive {
+  background-color: #e19f25;
+}
+
+@media screen and (min-width: 677px) {
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    background-color: #296788;
+    color: #d8d2cb;
+    outline: none;
+    border-radius: 5%;
+    border: none;
+  }
+}

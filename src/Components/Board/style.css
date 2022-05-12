@@ -1,0 +1,18 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 5rem);
+  grid-template-rows: repeat(3, 5rem);
+  grid-gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 677px) {
+  .board {
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(3, 8rem);
+  }
+
+  .modal-overlay {
+    font-size: 5rem;
+  }
+}

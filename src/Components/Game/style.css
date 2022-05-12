@@ -1,0 +1,55 @@
+h1 {
+  color: #e19f25;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.game {
+  background-color: #4daee6;
+  border-radius: 4%;
+  padding: 1rem;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.next-player {
+  color: #e19f25;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e19f25;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.modal-overlay button {
+  font-size: 2rem;
+  background-color: #296788;
+  border: 1px solid #e19f25;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+
+  color: #e19f25;
+}
+.modal-overlay button:hover {
+  background-color: #e19f25;
+  color: #296788;
+
+  border-color: #296788;
+}
+
+@media screen and (min-width: 677px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
