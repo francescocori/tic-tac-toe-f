@@ -35,10 +35,10 @@ h1 {
 .modal-overlay button {
   font-size: 2rem;
   background-color: #296788;
-  border: 1px solid #e19f25;
+  border: 2px solid #e19f25;
   padding: 0.25em 0.5em;
   cursor: pointer;
-
+  border-radius: 1rem;
   color: #e19f25;
 }
 .modal-overlay button:hover {
