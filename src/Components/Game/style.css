@@ -47,7 +47,24 @@ h1 {
 
   border-color: #296788;
 }
+.re-start-btn:hover {
+  background-color: #e19f25;
+  color: #296788;
+  transform: translateY(-0.25em);
 
+  border-color: #296788;
+}
+.re-start-btn {
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: #296788;
+  border: 2px solid #e19f25;
+  padding: 0.2rem 0.5em;
+  cursor: pointer;
+  color: #e19f25;
+  margin-top: 0.7rem;
+  transition: all 0.3s ease 0s;
+}
 @media screen and (min-width: 677px) {
   h1 {
     font-size: 3rem;

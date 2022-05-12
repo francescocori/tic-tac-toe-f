@@ -29,7 +29,12 @@ const Game = () => {
         <p className="next-player">
           {"Next Player: " + (xIsNext ? "X" : " O")}
         </p>
-
+        <button
+          className="re-start-btn"
+          onClick={() => setBoard(Array(9).fill(null))}
+        >
+          Re-Start
+        </button>
         {calculateWinnerResult.winner && (
           <div className="modal-overlay">
             <div className="winner-message">{`The winner is : ${calculateWinnerResult.winner}`}</div>
